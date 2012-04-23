@@ -1,4 +1,4 @@
-dotfiles
+MT's own dotfiles
 ========
 
-dotfiles
+Trying my own set of dotfiles.
