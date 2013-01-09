@@ -1,4 +1,3 @@
-MT's own dotfiles
-========
+## DOTFILES
 
-Trying my own set of dotfiles.
+The dotfiles I use.
