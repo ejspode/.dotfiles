@@ -4,11 +4,14 @@
 		"CoffeeScript",
 		"CSSFormat",
 		"Cucumber",
+		"DocBlockr",
 		"Emmet",
 		"Gherkin (Cucumber) Formatter",
 		"JsFormat",
 		"Package Control",
+		"RSpec",
 		"RubyFormat",
-		"Sass"
+		"Sass",
+		"SublimeCodeIntel"
 	]
 }
