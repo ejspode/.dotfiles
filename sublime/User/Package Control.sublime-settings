@@ -1,0 +1,19 @@
+{
+	"installed_packages":
+	[
+		"CoffeeScript",
+		"CSSFormat",
+		"Cucumber",
+		"DocBlockr",
+		"Emmet",
+		"Gherkin (Cucumber) Formatter",
+		"Jade",
+		"JsFormat",
+		"Package Control",
+		"RSpec",
+		"RubyFormat",
+		"Sass",
+		"SublimeCodeIntel",
+		"TrailingSpaces"
+	]
+}
