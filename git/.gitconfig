@@ -1,6 +1,8 @@
 [user]
   name = Mohnish Thallavajhula
   email = i@mohni.sh
+[core]
+  editor = "sub -n"
 [color]
   diff = auto
   status = auto
