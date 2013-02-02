@@ -34,7 +34,7 @@ function serve() {
 # DISABLE_AUTO_UPDATE="true"
 
 # Editor
-export EDITOR="sub -w"
+export EDITOR="sub -n"
 
 # Source z
 source ~/z.sh
