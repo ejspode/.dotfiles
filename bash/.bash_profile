@@ -1,7 +1,11 @@
-
+PS1="  λ \W: "
 # Aliases
 # Copy current directory path into clipboard
 alias cpwd="pwd | pbcopy"
+
+# List all directories/files
+alias la="ls -lAG"
+alias l="ls -lG"
 
 # Basic copy and paste
 alias copy="pbcopy"
