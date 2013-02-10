@@ -4,8 +4,8 @@ PS1="  λ \W: "
 alias cpwd="pwd | pbcopy"
 
 # List all directories/files
-alias la="ls -lAG"
-alias l="ls -lG"
+alias la="ls -lA"
+alias l="ls -l"
 
 # Basic copy and paste
 alias copy="pbcopy"
@@ -21,6 +21,11 @@ function serve() {
   local port="${1:-8000}"
   open "http://localhost:${port}/"
   python -m SimpleHTTPServer "$port"
+}
+
+function take() {
+  mkdir -p $1
+  cd $1
 }
 
 # Editor
