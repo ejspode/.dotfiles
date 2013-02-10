@@ -18,7 +18,7 @@ alias copy="pbcopy"
 alias paste="pbpaste"
 
 # Grab the local IP address
-alias localip="ipconfig getifaddr en1"
+alias localip="ipconfig getifaddr en0"
 
 # Use the Python's SimpleHTTPServer to serve files in the current dir
 function serve() {
