@@ -1,4 +1,10 @@
-PS1="  λ \W: "
+#git
+function git_prompt() {
+  git symbolic-ref HEAD --short 2> /dev/null
+}
+
+PS1="  λ \W \$(git_prompt): "
+
 # Aliases
 # Copy current directory path into clipboard
 alias cpwd="pwd | pbcopy"
