@@ -1,7 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "smooth",
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
 	"detect_indentation": false,
 	"ensure_newline_at_eof_on_save": false,
 	"fade_fold_buttons": false,
