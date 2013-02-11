@@ -1,7 +1,16 @@
-#git
-function git_prompt() {
-  git symbolic-ref HEAD --short 2> /dev/null
+# git
+function git_dirty_status() {
+  local dirty_status=$(git status --porcelain 2>/dev/null| wc -l)
+  if test $dirty_status -gt 0; then
+    echo "*"
+  fi
 }
+
+function git_prompt() {
+  local branch=$(git symbolic-ref HEAD --short 2> /dev/null)
+  echo "($branch)$(git_dirty_status)"
+}
+
 
 PS1="  λ \W \$(git_prompt): "
 
