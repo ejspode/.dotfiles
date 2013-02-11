@@ -10,17 +10,17 @@
   interactive = auto
   ui = auto
 [color "branch"]
-  current = green bold
+  current = green
   local = green
-  remote = red bold
+  remote = red
 [color "diff"]
-  meta = yellow bold
-  frag = magenta bold
-  old = red bold
-  new = green bold
+  meta = yellow
+  frag = magenta
+  old = red
+  new = green
 [color "status"]
-  added = green bold
-  changed = yellow bold
+  added = green
+  changed = yellow
   untracked = red
 [alias]
   lg = log --graph --pretty=oneline --abbrev-commit --decorate
