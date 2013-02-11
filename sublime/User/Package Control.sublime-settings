@@ -10,10 +10,12 @@
 		"Jade",
 		"JsFormat",
 		"Package Control",
+		"Prefixr",
 		"RSpec",
 		"RubyFormat",
 		"Sass",
 		"SublimeCodeIntel",
+		"SublimeLinter",
 		"TrailingSpaces"
 	]
 }
