@@ -8,7 +8,9 @@ function git_dirty_status() {
 
 function git_prompt() {
   local branch=$(git symbolic-ref HEAD --short 2> /dev/null)
-  echo "($branch)$(git_dirty_status)"
+  if test "$branch" != ""; then
+    echo "($branch)$(git_dirty_status)"
+  fi
 }
 
 
