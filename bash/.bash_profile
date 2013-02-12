@@ -17,16 +17,20 @@ function git_prompt() {
 PS1="  λ \W\$(git_prompt): "
 
 # Aliases
+
+# git-aliases
+alias gst="git status"
+alias gco="git checkout"
+alias gpnp="git pull origin $(git symbolic-ref HEAD --short) && git push origin $(git symbolic-ref HEAD --short)"
+alias gpull="git pull origin $(git symbolic-ref HEAD --short)"
+alias gpush="git push origin $(git symbolic-ref HEAD --short)"
+
 # Copy current directory path into clipboard
 alias cpwd="pwd | pbcopy"
 
 # List all directories/files
 alias la="ls -lA"
 alias l="ls -l"
-
-# Basic copy and paste
-alias copy="pbcopy"
-alias paste="pbpaste"
 
 # Grab the local IP address
 alias localip="ipconfig getifaddr en0"
