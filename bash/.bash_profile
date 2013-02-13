@@ -13,6 +13,17 @@ function git_prompt() {
   fi
 }
 
+function gpull() {
+  git pull origin $(git symbolic-ref HEAD --short)
+}
+
+function gpush() {
+  git push origin $(git symbolic-ref HEAD --short)
+}
+
+function gpnp() {
+  gpull && gpush
+}
 
 PS1="  λ \W\$(git_prompt): "
 
@@ -21,9 +32,6 @@ PS1="  λ \W\$(git_prompt): "
 # git-aliases
 alias gst="git status"
 alias gco="git checkout"
-alias gpnp="git pull origin $(git symbolic-ref HEAD --short) && git push origin $(git symbolic-ref HEAD --short)"
-alias gpull="git pull origin $(git symbolic-ref HEAD --short)"
-alias gpush="git push origin $(git symbolic-ref HEAD --short)"
 
 # Copy current directory path into clipboard
 alias cpwd="pwd | pbcopy"
