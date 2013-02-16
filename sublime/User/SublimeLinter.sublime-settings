@@ -1,0 +1,42 @@
+{
+  "jshint_options" : {
+    "boss": true,
+    "browser": true,
+    "curly": false,
+    "devel": true,
+    "eqeqeq": false,
+    "eqnull": true,
+    "expr": true,
+    "evil": true,
+    "immed": false,
+    "laxcomma": true,
+    "newcap": false,
+    "noarg": true,
+    "smarttabs": true,
+    "sub": true,
+    "undef": true,
+    "predef": [
+      "_",
+      "__dirname",
+      "require",
+      "jasmine",
+      "describe",
+      "xdescribe",
+      "it",
+      "xit",
+      "beforeEach",
+      "afterEach",
+      "expect",
+      "spyOn",
+      "runs",
+      "waits",
+      "waitsFor",
+      "Benchmark",
+      "Raphael",
+      "Backbone",
+      "Modernizr",
+      "Ext",
+      "_gaq"
+    ]
+  }
+}

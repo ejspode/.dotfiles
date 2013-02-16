@@ -28,6 +28,7 @@ function gpnp() {
 PS1="  λ \W\$(git_prompt): "
 
 # Aliases
+alias opensource="~/opensource/opensource"
 
 # git-aliases
 alias gst="git status"
