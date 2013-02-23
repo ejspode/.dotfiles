@@ -4,8 +4,7 @@ The dotfiles I use.
 
 ### Usage
 
-- `cd ~`
-- `git clone git@github.com:mohnish/.dotfiles.git`
+- `git clone git@github.com:mohnish/.dotfiles.git ~/.dotfiles/`
 - Excercise. Because it's good for your health.
 - You'll now have the .dotfiles setup at `~/.dotfiles/`
 
