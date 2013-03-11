@@ -2,7 +2,7 @@
   name = Mohnish Thallavajhula
   email = i@mohni.sh
 [core]
-  editor = "sub -n"
+  editor = "/usr/local/bin/sub -w -n"
 [color]
   diff = auto
   status = auto

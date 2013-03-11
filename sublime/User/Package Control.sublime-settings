@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"Alignment",
 		"CoffeeScript",
 		"CSSFormat",
 		"Cucumber",

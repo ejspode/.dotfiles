@@ -44,6 +44,16 @@ alias l="ls -l"
 # Grab the local IP address
 alias localip="ipconfig getifaddr en0"
 
+# SSH
+# Nike - Action.io
+alias connectnike="ssh action@usw1.actionbox.io -p12572"
+
+# Rails - Action.io
+alias connectrails="ssh action@usw1.actionbox.io -p12101"
+
+# `i` - billfloat
+alias connecti="ssh ubuntu@i.billfloat.com -p50000"
+
 # Use the Python's SimpleHTTPServer to serve files in the current dir
 function serve() {
   echo "Starting the server from the location:"
@@ -70,3 +80,6 @@ export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/.rvm/bin
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
