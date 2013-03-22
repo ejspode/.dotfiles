@@ -45,12 +45,6 @@ alias l="ls -l"
 alias localip="ipconfig getifaddr en0"
 
 # SSH
-# Nike - Action.io
-alias connectnike="ssh action@usw1.actionbox.io -p12572"
-
-# Rails - Action.io
-alias connectrails="ssh action@usw1.actionbox.io -p12101"
-
 # `i` - billfloat
 alias connecti="ssh ubuntu@i.billfloat.com -p50000"
 
@@ -68,6 +62,10 @@ function take() {
   cd $1
 }
 
+# Enable terminal colors
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+
 # Editor
 export EDITOR="sub -n"
 
@@ -77,9 +75,7 @@ source ~/z.sh
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 
-# Add RVM to PATH for scripting
-PATH=$PATH:$HOME/.rvm/bin
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
