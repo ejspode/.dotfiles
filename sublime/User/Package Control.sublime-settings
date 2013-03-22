@@ -17,6 +17,7 @@
 		"Sass",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"TrailingSpaces"
+		"TrailingSpaces",
+		"Web Inspector"
 	]
 }
