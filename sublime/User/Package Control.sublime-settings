@@ -2,21 +2,28 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"CodeFormatter",
 		"CoffeeScript",
 		"CSSFormat",
 		"Cucumber",
 		"DocBlockr",
+		"eco",
 		"Emmet",
 		"Gherkin (Cucumber) Formatter",
+		"Haml",
 		"Jade",
+		"Jasmine",
 		"JsFormat",
 		"Package Control",
 		"Prefixr",
 		"RSpec",
 		"RubyFormat",
+		"RubyTest",
 		"Sass",
+		"Stylus",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"Theme - Flatland",
 		"TrailingSpaces",
 		"Web Inspector"
 	]
