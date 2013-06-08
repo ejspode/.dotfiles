@@ -16,7 +16,7 @@
 	"line_numbers": true,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
-	"margin": 4,
+	"margin": 0,
 	"rulers":
 	[
 		80
