@@ -51,6 +51,12 @@ alias irb="irb --simple-prompt"
 # `i` - billfloat
 alias connecti="ssh ubuntu@i.billfloat.com -p50000"
 
+# Billfloat DB Rebuild
+alias be='bundle exec'
+export BF_DIR=~/work/billfloat
+export PLATFORM_DIR=~/work/platform
+alias rebuilddb='pushd $PLATFORM_DIR && be rake db:drop db:create db:migrate && be rake db:test:prepare && pushd $BF_DIR && be rake db:seed && popd && be rake db:seed && popd'
+
 # Use the Python's SimpleHTTPServer to serve files in the current dir
 function serve() {
   echo "Starting the server from the location:"
@@ -76,7 +82,7 @@ export EDITOR="sub -n"
 source ~/z.sh
 
 # Customize to your needs...
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+export PATH=/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
