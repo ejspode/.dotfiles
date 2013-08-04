@@ -47,16 +47,6 @@ alias localip="ipconfig getifaddr en0"
 # IRB
 alias irb="irb --simple-prompt"
 
-# SSH
-# `i` - billfloat
-alias connecti="ssh ubuntu@i.billfloat.com -p50000"
-
-# Billfloat DB Rebuild
-alias be='bundle exec'
-export BF_DIR=~/work/billfloat
-export PLATFORM_DIR=~/work/platform
-alias rebuilddb='pushd $PLATFORM_DIR && be rake db:drop db:create db:migrate && be rake db:test:prepare && pushd $BF_DIR && be rake db:seed && popd && be rake db:seed && popd'
-
 # Use the Python's SimpleHTTPServer to serve files in the current dir
 function serve() {
   echo "Starting the server from the location:"
@@ -78,7 +68,10 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 # Editor
 export EDITOR="sub -n"
 
-# Source z
+# Load BillFloat specific data
+source ~/.billfloat_data.sh
+
+# Load z
 source ~/z.sh
 
 # Customize to your needs...
