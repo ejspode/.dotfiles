@@ -44,9 +44,6 @@ alias l="ls -l"
 # Grab the local IP address
 alias localip="ipconfig getifaddr en0"
 
-# IRB
-alias irb="irb --simple-prompt"
-
 # Use the Python's SimpleHTTPServer to serve files in the current dir
 function serve() {
   echo "Starting the server from the location:"
