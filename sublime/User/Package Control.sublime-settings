@@ -23,8 +23,10 @@
 		"Sass",
 		"Stylus",
 		"SublimeCodeIntel",
+		"SublimeGit",
 		"SublimeLinter",
 		"Theme - Flatland",
+		"Toggle Css Format",
 		"TrailingSpaces",
 		"Web Inspector"
 	]

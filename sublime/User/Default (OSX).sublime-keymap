@@ -1,2 +1,28 @@
 [
+  {
+      "keys": [
+          "shift+alt+super+r"
+      ],
+      "args": {
+          "action": "reflect_css_value"
+      },
+      "command": "run_emmet_action",
+      "context": [
+          {
+              "key": "emmet_action_enabled.reflect_css_value"
+          }
+      ]
+  },
+  {
+    "keys": [
+        "super+shift+r"
+    ],
+    "command": "goto_symbol_in_project"
+  },
+  {
+    "keys": [
+        "super+alt+down"
+    ],
+    "command": "goto_definition"
+  }
 ]
