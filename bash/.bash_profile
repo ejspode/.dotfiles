@@ -30,6 +30,9 @@ PS1="  λ \W\$(git_prompt): "
 # Aliases
 alias opensource="~/opensource/opensource"
 
+# heroku
+alias hdeploy="git push heroku master"
+
 # git-aliases
 alias gst="git status"
 alias gco="git checkout"
