@@ -71,6 +71,9 @@ export EDITOR="sub -n"
 # Load BillFloat specific data
 source ~/.billfloat_data.sh
 
+# Load accessors
+source ~/mt_projects.sh
+
 # Load z
 source ~/z.sh
 

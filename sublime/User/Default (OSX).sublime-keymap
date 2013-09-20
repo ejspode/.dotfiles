@@ -1,8 +1,6 @@
 [
   {
-      "keys": [
-          "shift+alt+super+r"
-      ],
+      "keys": ["shift+alt+super+r"],
       "args": {
           "action": "reflect_css_value"
       },
@@ -13,16 +11,29 @@
           }
       ]
   },
+
   {
-    "keys": [
-        "super+shift+r"
-    ],
+    "keys": ["super+shift+r"],
     "command": "goto_symbol_in_project"
   },
+
   {
-    "keys": [
-        "super+alt+down"
-    ],
+    "keys": ["super+alt+down"],
     "command": "goto_definition"
+  },
+
+  {
+    "keys": ["super+alt+n"],
+    "command": "advanced_new_file"
+  },
+
+  {
+    "keys": ["super+v"],
+    "command": "paste_and_indent"
+  },
+
+  {
+    "keys": ["super+shift+v"],
+    "command": "paste"
   }
 ]
